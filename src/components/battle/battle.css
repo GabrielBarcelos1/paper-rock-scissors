@@ -1,0 +1,114 @@
+.battle-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.battle--yourChoose,.battle--ioChosse{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    text-shadow: 0.1em 0.1em 1.2em black;
+}
+.battle-circle{
+    margin-top: 100px;
+}
+.battle--circle-thriller{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    background: rgba(0, 0,0, 0.1);
+}
+.battle--play-again-box{
+    padding: 200px 100px 0px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.battle--results-text{
+    font-size: 45px;
+    color: white;
+    font-weight: 700;
+    text-shadow: 0.1em 0.1em 0.8em black;
+}
+.battle--play-again-box div{
+    width: 250px;
+    height: 50px;
+    color: rgb(204, 32, 32);
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-top: 10px;
+    border-radius: 10px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.battle--playerChosse-p-minor ,.battle--ioChosse-p-minor {
+    display: none;
+ }
+ .battle--play-again-box--minor{
+   display: none;
+}
+@media screen and (max-width: 1152px) {
+    .battle-box{
+        gap: 75px;
+    }
+    .battle--play-again-box{
+        display: none;
+    }
+    .battle--playerChosse-p ,.battle--ioChosse-p {
+       display: none;
+    }
+    .battle--playerChosse-p-minor ,.battle--ioChosse-p-minor {
+        display: flex;
+       margin-top: 50px;
+       font-size: 15px;
+       font-weight: 800;
+       letter-spacing: 2px;
+    }
+    .battle--yourChoose,.battle--ioChosse{
+       margin-top: 0;
+    }
+    .battle-circle{
+        margin-top: 50px;
+    }
+    .battle--circle-thriller{
+        width: 125px;
+        height: 125px;
+    }
+    .battle--play-again-box--minor{
+        padding: 75px 100px 0px 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+    }
+    .battle--play-again-box--minor div{
+        width: 250px;
+        height: 50px;
+        color: rgb(51, 50, 50);
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        margin-top: 10px;
+        border-radius: 10px;
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
+    .battle--results-text{
+        font-size: 75px;
+      
+    }
+}

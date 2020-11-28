@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Barlow Semi,sans-serif;
+    -webkit-user-select: none;
+}
+body{
+background: radial-gradient( hsl(214, 47%, 23%),hsl(237, 49%, 15%));
+background-repeat: no-repeat;
+width: 100vw;
+height: 100vh;
+display: flex;
+justify-content: center;
+}
+.app-triangle{
+    display: flex;
+    justify-content: center;
+}
+.app-triangle img{
+    position: absolute;
+    margin-top: 150px;
+    z-index: -1;
+}
+.app--circles{
+    display: grid;
+    grid-template-columns: 0.4fr 0.4fr;
+    margin-top: 50px;
+    justify-items: center;
+    justify-content: center;
+}
+.app--last-circle{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+@media screen and (max-width: 768px){
+    .app-triangle img{
+        margin-top: 85px;
+        width: 200px;
+    }
+}
+@media screen and (max-height: 990px){
+    .app-triangle img{
+        margin-top: 85px;
+        width: 200px;
+    }
+}

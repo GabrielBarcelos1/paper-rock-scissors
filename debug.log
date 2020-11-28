@@ -1,0 +1,4 @@
+[1119/204607.541:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Gabriel\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\d52ff785-46b4-408f-8df8-5e6059921903: O sistema não pode encontrar o caminho especificado. (0x3)
+[1121/202458.947:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Gabriel\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\42797a3b-1fde-497c-9941-4c68d9d721d0: O sistema não pode encontrar o caminho especificado. (0x3)
+[1121/202458.978:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\Gabriel\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\9511a557-cd97-4b84-ace7-5a7943a35237: O sistema não pode encontrar o caminho especificado. (0x3)
+[1121/202458.994:ERROR:directory_reader_win.cc(43)] FindFirstFile: O sistema não pode encontrar o caminho especificado. (0x3)

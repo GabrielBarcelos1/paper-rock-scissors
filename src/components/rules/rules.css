@@ -1,0 +1,89 @@
+.rules--box{
+    position: absolute;
+    right: 50px;
+    margin-top: 200px;
+    width: 125px;
+    border: 1px solid white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    z-index: 2;
+}
+.rules--box:hover{
+    cursor: pointer;
+}
+.rules--box p{
+    color: white;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: 550;
+}
+.rules--alert{
+    width: 425px;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+.hidden{
+    display: none;
+}
+.rules--alert--top{
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 30px;
+    align-items: center;
+}
+.rules--alert--top p{
+    font-size: 27px;
+    font-weight: 700;
+    color: rgb(34, 44, 80);
+}
+.rules--alert--top img{
+    width: 20px;
+    height: 20px;
+}
+.rules--real-rules{
+    display: flex;
+    justify-content: center;
+}
+.teste{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.7);
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+@media screen and (max-width: 768px){
+.rules--majorBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rules--box{
+   position: relative;
+   right: 0;
+   margin-top: 13vh;
+}
+}
+@media screen and (max-height: 990px){
+.rules--majorBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rules--box{
+   position: relative;
+   right: 0;
+   margin-top: 13vh;
+}
+}
+
