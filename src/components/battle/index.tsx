@@ -60,7 +60,7 @@ function Battle(){
         
             if(choosePLayer === chooseIo){
                 console.log('empate')
-                setResultText("THE GAME TIED")
+                setResultText("A TIE")
                 
             }else if(choosePLayer === 'paper' && chooseIo === 'scissors'){
                 context.setDados({choose: context.dados.choose, color: context.dados.color, points: context.dados.points <= 0 ?context.dados.points = 0  : context.dados.points - 1})

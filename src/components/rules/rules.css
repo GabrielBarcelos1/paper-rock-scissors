@@ -1,7 +1,4 @@
 .rules--box{
-    position: absolute;
-    right: 50px;
-    margin-top: 200px;
     width: 125px;
     border: 1px solid white;
     padding: 10px;
@@ -61,6 +58,13 @@
     left: 0;
     z-index: 1;
 }
+.rules--gridBox{
+    display: grid;
+    grid-template-rows: 13vh 1fr;
+    width: 100%;
+    justify-content: flex-end;
+    padding-right: 100px;
+}
 
 @media screen and (max-width: 768px){
 .rules--majorBox{
@@ -70,11 +74,14 @@
 }
 .rules--box{
    position: relative;
-   right: 0;
-   margin-top: 13vh;
+}
+.rules--gridBox{
+    justify-content: center;
+    padding-right: 0;
 }
 }
-@media screen and (max-height: 990px){
+
+@media screen and (max-height: 900px){
 .rules--majorBox{
     display: flex;
     justify-content: center;
@@ -82,8 +89,10 @@
 }
 .rules--box{
    position: relative;
-   right: 0;
-   margin-top: 13vh;
+}
+.rules--gridBox{
+    justify-content: center;
+    padding-right: 0;
 }
 }
 

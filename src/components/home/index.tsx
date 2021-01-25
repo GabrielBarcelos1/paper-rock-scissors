@@ -29,11 +29,9 @@ function Home(){
   
   
     return (
-      
+      <div className="app-rules">
       <div className="app ">
-        
         <Results/>
-        
         <div className="app-triangle">
             <img src={triangle} alt="triangulo"/>
         </div>
@@ -70,7 +68,8 @@ function Home(){
                 </div>
             </Link>
            </div>
-           <Rules/>
+      </div>
+      <Rules/>
       </div>
       
     );

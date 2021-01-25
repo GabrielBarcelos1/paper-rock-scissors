@@ -2,6 +2,8 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    max-width: 740px;
+    margin: 0 auto;
 }
 .battle--yourChoose,.battle--ioChosse{
     display: flex;
@@ -78,6 +80,9 @@
     .battle--yourChoose,.battle--ioChosse{
        margin-top: 0;
     }
+    .battle--yourChoose{
+        margin-left: 20px;
+    }
     .battle-circle{
         margin-top: 50px;
     }
@@ -86,7 +91,7 @@
         height: 125px;
     }
     .battle--play-again-box--minor{
-        padding: 75px 100px 0px 100px;
+        padding: 75px 0px 0px 0px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -108,7 +113,10 @@
         letter-spacing: 1px;
     }
     .battle--results-text{
-        font-size: 75px;
+        font-size: 50px;
       
     }
+    .battle--playerChosse-p-minor ,.battle--ioChosse-p-minor {
+        font-size: 12px;
+     }
 }

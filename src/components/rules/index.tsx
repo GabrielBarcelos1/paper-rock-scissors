@@ -13,6 +13,8 @@ function Rules(){
         }
     }
     return(
+        <div className="rules--gridBox">
+             <div></div>
         <div className="rules--majorBox">
             <div className="rules--box" onClick={changeDisplay}>
                 <p>RULES</p>
@@ -29,7 +31,8 @@ function Rules(){
             <div className={`teste ${display}`}>
 
             </div>
-           
+        </div>
+       
         </div>
     )
 

@@ -73,7 +73,7 @@
         margin-right: 8px;
     }
 }
-@media screen and (max-height: 990px){
+@media screen and (max-height: 900px){
     .results--box{
      width: 320px;
      height: 100px;

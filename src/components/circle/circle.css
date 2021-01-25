@@ -95,9 +95,12 @@
         width: 52.5px;
         height: 54.5px
     }
+    .battle--circle-first{
+        margin-top: 20px;
+    }
 
 }
-@media screen and (max-height: 990px) {
+@media screen and (max-height: 900px) {
     .circle--first{
         width: 100px;
         height: 100px;
@@ -124,6 +127,9 @@
     .red{
         background: linear-gradient( hsl(349, 70%, 56%),hsl(349, 71%, 52%));
         box-shadow: -0.5px 4.5px hsl(349, 71%, 37%);
+    }
+    .battle--circle-first{
+        margin-top: 20px;
     }
 
 }
