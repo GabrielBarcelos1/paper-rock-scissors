@@ -38,7 +38,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [Css3]()
 
 ## 💻 Projeto
-O projeto Paper,rock and scissors foi desenvolvido para praticar conceitos de ReactJs, dentre esses conceitos estão, hooks, troca de informações entre paginas usando contextApi, componentização,resposividade e rotas com react-router-dom. essa aplicação foi feita a partir de uma ideia do site https://www.frontendmentor.io sendo no nivel avançado, é uma aplicação muito intuitiva que relembra a nossa infancia com o famoso Pedra papel e tesoura.
+O projeto Paper,rock and scissors foi desenvolvido para praticar conceitos de ReactJs, dentre esses conceitos estão, hooks, troca de informações entre páginas usando contextApi, componentização,responsividade e rotas com react-router-dom. essa aplicação foi feita a partir de uma ideia do site https://www.frontendmentor.io sendo no nível avançado, é uma aplicação muito intuitiva que relembra a nossa infância com o famoso Pedra papel e tesoura.
 
 Site hospedado: https://paper-rock-scissors2.vercel.app/
 
