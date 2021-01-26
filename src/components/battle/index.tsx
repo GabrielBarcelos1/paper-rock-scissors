@@ -61,9 +61,9 @@ function Battle(){
             if(choosePLayer === chooseIo){
                 console.log('empate')
                 setResultText("A TIE")
-                context.setDados({choose: context.dados.choose, color: context.dados.color, points: context.dados.points <= 0 ?context.dados.points = 0  : context.dados.points - 1})               
+                context.setDados({choose: context.dados.choose, color: context.dados.color, points: context.dados.points <= 0 ?context.dados.points = 0  : context.dados.points = context.dados.points})               
             }else if(choosePLayer === 'paper' && chooseIo === 'scissors'){
-
+                context.setDados({choose: context.dados.choose, color: context.dados.color, points: context.dados.points <= 0 ?context.dados.points = 0  : context.dados.points - 1})
                 setResultText("YOU LOSE")
             }else if(choosePLayer === 'paper' && chooseIo === 'rock'){
                 setResultText("YOU WIN")
