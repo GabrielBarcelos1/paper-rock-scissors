@@ -61,25 +61,25 @@ function Battle(){
             if(choosePLayer === chooseIo){
                 console.log('empate')
                 setResultText("A TIE")
-                
+                context.setDados({choose: context.dados.choose, color: context.dados.color, points: context.dados.points <= 0 ?context.dados.points = 0  : context.dados.points - 1})               
             }else if(choosePLayer === 'paper' && chooseIo === 'scissors'){
-                context.setDados({choose: context.dados.choose, color: context.dados.color, points: context.dados.points <= 0 ?context.dados.points = 0  : context.dados.points - 1})
+
                 setResultText("YOU LOSE")
             }else if(choosePLayer === 'paper' && chooseIo === 'rock'){
-                context.setDados({choose: context.dados.choose, color: context.dados.color, points: context.dados.points + 1})
                 setResultText("YOU WIN")
+                context.setDados({choose: context.dados.choose, color: context.dados.color, points: context.dados.points + 1})
             }else if(choosePLayer === 'scissors' && chooseIo === 'rock'){
-                context.setDados({choose: context.dados.choose, color: context.dados.color, points: context.dados.points <= 0 ?context.dados.points = 0  : context.dados.points - 1})
                 setResultText("YOU LOSE")
+                context.setDados({choose: context.dados.choose, color: context.dados.color, points: context.dados.points <= 0 ?context.dados.points = 0  : context.dados.points - 1})
             }else if(choosePLayer === 'scissors' && chooseIo === 'paper'){
-                context.setDados({choose: context.dados.choose, color: context.dados.color, points: context.dados.points + 1})
                 setResultText("YOU WIN")
+                context.setDados({choose: context.dados.choose, color: context.dados.color, points: context.dados.points + 1})
             }else if(choosePLayer === 'rock' && chooseIo === 'paper'){
-                context.setDados({choose: context.dados.choose, color: context.dados.color, points: context.dados.points <= 0 ?context.dados.points = 0  : context.dados.points - 1})
                 setResultText("YOU LOSE")
+                context.setDados({choose: context.dados.choose, color: context.dados.color, points: context.dados.points <= 0 ?context.dados.points = 0  : context.dados.points - 1})
             }else if(choosePLayer === 'rock' && chooseIo === 'scissors'){
-                context.setDados({choose: context.dados.choose, color: context.dados.color, points: context.dados.points + 1})
                 setResultText("YOU WIN")
+                context.setDados({choose: context.dados.choose, color: context.dados.color, points: context.dados.points + 1})
             }
             setInterval(appearIo,500)
             setInterval(appearTextResult,1200)
